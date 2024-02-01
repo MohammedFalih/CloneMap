@@ -25,7 +25,7 @@ var marker;
 var popup;
 
 function onMapClick(e) {
-    marker
+    //marker
         L.marker(e.latlng,{ draggable: true }).on('mouseover',onOver).addTo(map);
         marker.on('dragstart', function () {
             marker.closePopup(); // Close popup when marker is dragged
